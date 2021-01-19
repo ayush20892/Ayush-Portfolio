@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+
+:root {
+    --primary-color: black;
+    --background-color: white;
+    --dark-gray: rgb(117, 120, 124); 
+    --off-white: #D1D5DB;
+} 
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-center {
+  max-width: 700px;
+  margin: auto;
+}
+
+
+.navigation {
+  color: var(--primary-color);
+  margin-top: 2rem;
+  background-color: var(--background-color);
+  text-align: center;
+}
+
+
+.navigation #cursor {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.navigation .nav-pills {
+  text-align: right;
+  display: inline;
+  font-size: 1.2rem;
+}
+
+.navigation .nav-pills .link{
+  color: var(--dark-gray);
+}
+
+
+.nav-head {
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-right: 6rem;
+  font-size: xx-large;
+  display: inline;
+  text-decoration: none;
+}
+
+.nav-head .link {
+  color: var(--primary-color);
+}
+
+.list-non-bullet {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.nav-pills {
+  text-align: right;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.secondary-link {
+   color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    padding: 0.2rem 0.5rem;
+}
+
+.hero {
+  padding: 2rem;
+  padding-top: 3rem;
+
+}
+
+.hero .hero-img {
+  max-width: 80%;
+  width: 350px;
+  display: block;
+  margin: auto;
+}
+
+.hero .hero-head {
+    text-align: center;
+    color: solid var(--dark-gray);
+    font-size: 1.2rem;
+    /* width: 450px;
+    margin: auto; */
+}
+
+.container {
+  padding: 0rem 1rem;
+}
+
+.section .container {
+  padding: 3rem;
+}
+
+.section h1 {
+  text-align: center;
+
+}
+
+.ow {
+  background-color: var(--off-white);
+}
