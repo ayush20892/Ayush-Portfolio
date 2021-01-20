@@ -19,7 +19,8 @@ body {
 }
 
 hr {
-  margin: 0rem 22rem;
+  margin:auto;
+  max-width: 50%;
   margin-top: 1.5rem;
 }
 
@@ -160,6 +161,10 @@ hr {
   text-align: center;
 }
 
+.foot-line {
+  font-size: large;
+}
+
 .social-links {
   padding: 1rem;
 }
@@ -174,4 +179,44 @@ hr {
   border: 1px var(--primary-color);
 }
 
+.pro-head {
+  text-align: center;
+  font-size: x-large;
+  font-weight: bolder;
+  margin: 2rem;
+}
 
+.section-pro {
+  margin-left: 0rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  
+}
+
+.section-pro .container {
+  border-left: 0.3rem solid;
+  border-color: var(--dark-gray);
+}
+
+.code-head {
+  padding-left: 0rem;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.tag {
+    border: 1px solid black;
+    border-radius: 0.4rem;
+    padding: 0.2rem;
+    font-size: 1rem;
+    background-color: var(--light-grey);
+    color: var(--primary-color);
+}
+
+.section-pro .social {
+  width: 90px;
+}
+
+.section-pro .list-non-bullet {
+  margin-left: -2.5rem;
+}
