@@ -220,3 +220,30 @@ hr {
 .section-pro .list-non-bullet {
   margin-left: -2.5rem;
 }
+
+
+/* blogs */
+
+.link-blog {
+  text-decoration: none;
+  color: black;
+}
+
+.blogs {
+  border: 1px solid black;
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+.blog-head {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.link-blog .list-non-bullet {
+  margin-left: -2.5rem;
+}
+
+
+
