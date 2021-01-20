@@ -123,3 +123,43 @@ body {
 .ow {
   background-color: var(--off-white);
 }
+
+.link-primary {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
+  padding: 0.4rem 1rem;
+  /* display: block;
+  max-width: 140px;
+  margin: 1rem 1rem 1rem 0rem; */
+}
+
+.link-secondary {
+  color: var(--primary-color);
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
+  padding: 0.4rem 1rem;
+}
+
+
+/* footers */
+
+.footer {
+  text-align: center;
+}
+
+.social-links {
+  padding: 1rem;
+}
+
+.social {
+  padding: 1rem 1.5rem;
+  width: 70px;
+}
+
+.social-links a:hover{
+  background-color: var(--primary-color);
+  border: 1px var(--primary-color);
+}
+
+
