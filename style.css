@@ -287,6 +287,11 @@ hr {
 }
 
 .blog-content img {
-  width: 600px;
+  width: 340px;
+  margin-left: -0.5rem;
+}
+
+.blog-content li{
+  margin-left: -2rem;
 }
 
