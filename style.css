@@ -70,6 +70,10 @@ hr {
   color: var(--primary-color);
 }
 
+.list-non-bullet {
+  list-style: none;
+}
+
 .navigation .list-non-bullet {
   list-style: none;
   padding-inline-start: 0px;
@@ -251,7 +255,7 @@ hr {
 
 
 .blog-content {
-  max-width: 450px;
+  max-width: 600px;
   margin: auto;
 }
 
@@ -269,5 +273,20 @@ hr {
 .section .social1 {
   padding: 0rem 1rem;
   width: 90px;
+}
+
+.blog-content .pro-head {
+  font-weight: bold;
+  font-size: larger;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.blog1 .pro-head {
+  text-align: center;
+}
+
+.blog-content img {
+  width: 600px;
 }
 
