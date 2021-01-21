@@ -249,3 +249,25 @@ hr {
   width: 1rem;
 }
 
+
+.blog-content {
+  max-width: 500px;
+  margin: auto;
+}
+
+.blogs img {
+  width: 50px;
+  display: inline;
+  margin-top: 0.5rem;
+}
+
+.section .social {
+  padding: 0rem 1rem;
+  width: 70px;
+}
+
+.section .social1 {
+  padding: 0rem 1rem;
+  width: 90px;
+}
+
